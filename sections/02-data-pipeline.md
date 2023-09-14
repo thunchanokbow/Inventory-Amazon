@@ -20,8 +20,9 @@ Google Cloud Dataproc
 [Cloud Dataproc](https://cloud.google.com/dataproc?hl=en) managed Hadoop and Spark cluster. 
 <br>
 - [Create Cloud Dataproc](02-data-pipeline.md#Create-Cloud-Dataproc)
-- [Running Spark Cluster](02-data-pipeline.md#Running-Spark-Cluster)
-
+- [Submit PySpark jobs](02-data-pipeline.md#Submit-PySpark-jobs)
+- [Delete a Dataproc cluster](02-data-pipeline.md#Delete-a-Dataproc-cluster)
+  
 ## Create Cloud Composer
 create Google Cloud Composer environments to manage Apache Airflow workflows.<br>
 1.Select your project<br>
@@ -99,3 +100,13 @@ Keep it in mind when you create a Cloud Composer environment, Google Cloud Stora
 ![6](/images/6.png)
 
 ## Create Cloud Dataproc
+In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a Dataproc cluster, submit a PySpark job, and delete a Dataproc cluster using Python.
+
+
+![10](/images/10.png)
+
+## Submit PySpark jobs
+![11](/images/11.png)
+
+## Delete a Dataproc cluster
+![12](/images/12.png)
