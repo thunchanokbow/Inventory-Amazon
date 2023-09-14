@@ -1,7 +1,7 @@
 Amazon's Inventory of Clothes
 ============
 
-## Contents sections/01-postgres.md
+## Contents 
 
 [PostgreSQL Database](sections/01-postgres.md) managed database on Azure  
   - [Azure Database for PostgreSQL flexible server](sections/01-postgres.md)<br>
@@ -13,4 +13,6 @@ Amazon's Inventory of Clothes
   - [Google Cloud Dataproc](sections/02-data-pipeline.md#Create-Cloud-Dataproc) managed Hadoop and Spark cluster  <br>
   - [Google BigQuery](sections/02-data-pipeline.md#Create-Dataset) (Data Warehouse)  <br>
   
-[Data Visualization](sections/03-data-visualization.md) building dashboard with Power BI Desktop    
+[Data Visualization](sections/03-data-visualization.md) building dashboard with Power BI Desktop  
+<br>
+![11](/images/power-bi11.png)
