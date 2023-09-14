@@ -3,17 +3,17 @@ Google Cloud Composer
 managed workflow orchestration service built on Apache Airflow with [Cloud Composer](https://cloud.google.com/composer?hl=en)
 <br>
 
-[Create Cloud Composer](apache-airflow.md#Create-Cloud-Composer)
-- [Import the Python Package](apache-airflow.md#Import-the-Python-Package)
-- [Connected PostgreSQL to Airflow](apache-airflow.md#Connected-PostgreSQL-to-Airflow)
-
+[Create Cloud Composer](02-data-pipeline.md#Create-Cloud-Composer)
+- [Import the Python Package](02-data-pipeline.md#Import-the-Python-Package)
+- [Connected PostgreSQL to Airflow](02-data-pipeline.md#Connected-PostgreSQL-to-Airflow)
+- [Aotumate Tasks with Airflow](02-data-pipeline.md#Automate-Tasks-with-Airflow ))
 
 Google Cloud Storage
 ============
 [Cloud Storage](https://cloud.google.com/storage) managed service for storing semistructured, and unstructured data. We will create a bucket to store Spark scripts that have data collection tasks for working with Cloud Dataproc.
 <br>
 
-- [Create Bucket](apache-airflow.md#Create-Bucket)
+- [Create Bucket](02-data-pipeline.md#Create-Bucket)
 
 
 ## Create Cloud Composer
