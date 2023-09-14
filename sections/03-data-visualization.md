@@ -11,4 +11,5 @@ create dashboards and reports with [Power BI Desktop](https://cloud.google.com/c
 ![5](/images/power-bi5.png)
 ![6](/images/power-bi6.png)
 ![7](/images/power-bi7.png)
+![8](/images/power-bi8.png)
 ![9](/images/power-bi9.png)
