@@ -3,7 +3,7 @@ Google Cloud Composer
 managed workflow orchestration service built on Apache Airflow with [Cloud Composer](https://cloud.google.com/composer?hl=en)
 <br>
 
-[Create Cloud Composer](02-data-pipeline.md#Create-Cloud-Composer)
+- [Create Cloud Composer](02-data-pipeline.md#Create-Cloud-Composer)
 - [Import the Python Package](02-data-pipeline.md#Import-the-Python-Package)
 - [Connected PostgreSQL to Airflow](02-data-pipeline.md#Connected-PostgreSQL-to-Airflow)
 - [Automate Tasks with Airflow](02-data-pipeline.md#Automate-Tasks-with-Airflow )
@@ -15,6 +15,12 @@ Google Cloud Storage
 
 - [Create Bucket](02-data-pipeline.md#Create-Bucket)
 
+Google Cloud Dataproc
+============
+[Cloud Dataproc](https://cloud.google.com/dataproc?hl=en) managed Hadoop and Spark cluster. 
+<br>
+- [Create Cloud Dataproc](02-data-pipeline.md#Create-Cloud-Dataproc)
+- [Running Spark Cluster](02-data-pipeline.md#Running-Spark-Cluster)
 
 ## Create Cloud Composer
 create Google Cloud Composer environments to manage Apache Airflow workflows.<br>
@@ -91,3 +97,5 @@ Keep it in mind when you create a Cloud Composer environment, Google Cloud Stora
 - Uplod DAG flie to the composer bucket.
 
 ![6](/images/6.png)
+
+## Create Cloud Dataproc
