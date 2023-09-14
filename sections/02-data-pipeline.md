@@ -10,8 +10,11 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 
 Google Cloud Storage
 ============
-managed workflow orchestration service built on Apache Airflow with [Cloud Composer](https://cloud.google.com/composer?hl=en)
+[Cloud Storage](https://cloud.google.com/storage) managed service for storing semistructured, and unstructured data. We will create a bucket to store Spark scripts that have data collection tasks for working with Cloud Dataproc.
 <br>
+
+- [Create Bucket](apache-airflow.md#Create-Bucket)
+
 
 ## Create Cloud Composer
 create Google Cloud Composer environments to manage Apache Airflow workflows.<br>
@@ -64,4 +67,14 @@ Enter the following information:
 - Port: 5432
 
 
+## Create Bucket
+1.Click the Storage tab.<br>
+2.Click Buckets.<br>
+3.Click Create bucket.<br>
+4.Enter a name for your bucket.<br>
+5.Select a location for your bucket.<br>
+6.Select a storage class for your bucket.<br>
+7.Click Create.<br>
+
+![4](/images/4.png)
 
