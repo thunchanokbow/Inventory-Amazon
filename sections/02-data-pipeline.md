@@ -6,7 +6,7 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 [Create Cloud Composer](02-data-pipeline.md#Create-Cloud-Composer)
 - [Import the Python Package](02-data-pipeline.md#Import-the-Python-Package)
 - [Connected PostgreSQL to Airflow](02-data-pipeline.md#Connected-PostgreSQL-to-Airflow)
-- [Aotumate Tasks with Airflow](02-data-pipeline.md#Automate-Tasks-with-Airflow ))
+- [Automate Tasks with Airflow](02-data-pipeline.md#Automate-Tasks-with-Airflow )
 
 Google Cloud Storage
 ============
@@ -78,3 +78,16 @@ Enter the following information:
 
 ![4](/images/4.png)
 
+## Automate Tasks with Airflow
+
+![5](/images/5.png)
+
+
+### Upload files to GCS<br> 
+- Select the dataproc-spark-demo > script bucket. then upload spark script file.<br>
+- Click the "Open dags folder" button in the top right corner of the website.<br>
+  
+Keep it in mind when you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.<br>
+- Uplod DAG flie to the composer bucket.
+
+![6](/images/6.png)
