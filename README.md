@@ -10,3 +10,7 @@ Amazon's Inventory of Clothes
 [Data Pipeline](sections/data-pipeline/apache-airflow.md ) extract transform load
   - [Google Cloud Composer](sections/data-pipeline/apache-airflow.md) provides running Apache Airflow to automate tasks<br>
   - [Google Cloud Storage](sections/data-pipeline/apache-airflow.md) (Data Lake) <br>    
+  - [Google Cloud Dataproc](sections/data-pipeline/apache-airflow.md) managed Hadoop and Spark cluster  <br>
+  - [Google BigQuery](sections/data-pipeline/apache-airflow.md) (Data Warehouse)  <br>
+  
+[Data Visualization](sections/looker-studio.md) building dashboard with Power BI Desktop    
