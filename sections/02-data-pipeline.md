@@ -23,6 +23,11 @@ Google Cloud Dataproc
 - [Submit PySpark jobs](02-data-pipeline.md#Submit-PySpark-jobs)
 - [Delete a Dataproc cluster](02-data-pipeline.md#Delete-a-Dataproc-cluster)
   
+Google BigQury 
+============
+data warehouse to store data that works across clouds with [Google BigQuery](https://cloud.google.com/bigquery/?utm_source=google&utm_medium=cpc&utm_campaign=japac-TH-all-en-dr-BKWS-all-super-trial-EXA-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_667077871611-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Data%20Analytics_BigQuery_big%20query_main-KWID_43700077853701054-aud-1596662388934%3Akwd-63326440124&userloc_1012728-network_g&utm_term=KW_google%20bigquery&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtpFg721sXu5OaTYClS3Ctvc2SBAzMH3-iRvmO4V1-qD8z8k_ZoJ4ShoCazkQAvD_BwE&gclsrc=aw.ds)
+- [Create Dataset](02-data-pipeline.md#CreateCreate-Dataset)
+
 ## Create Cloud Composer
 create Google Cloud Composer environments to manage Apache Airflow workflows.<br>
 1.Select your project<br>
@@ -110,3 +115,17 @@ In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a D
 
 ## Delete a Dataproc cluster
 ![12](/images/12.png)
+
+## Create Dataset
+1.Go to the BigQuery [page](https://console.cloud.google.com/bigquery)<br>
+2.In the Explorer panel, select the project where you want to create the dataset.<br>
+3.Expand the more_vert Actions option and click Create dataset.<br>
+4.On the Create dataset page:<br>
+- Select : _best-seller-amazon_
+- Fill : _dataproc_spark_
+- Location type : Region
+- Region : asia-east2(Hong Kong)<br>
+5.Click Create.
+
+![9](/images/9.png)
+
