@@ -25,7 +25,7 @@ Google Cloud Dataproc
   
 Google BigQury 
 ============
-data warehouse to store data that works across clouds with [Google BigQuery](https://cloud.google.com/bigquery/?utm_source=google&utm_medium=cpc&utm_campaign=japac-TH-all-en-dr-BKWS-all-super-trial-EXA-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_667077871611-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Data%20Analytics_BigQuery_big%20query_main-KWID_43700077853701054-aud-1596662388934%3Akwd-63326440124&userloc_1012728-network_g&utm_term=KW_google%20bigquery&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtpFg721sXu5OaTYClS3Ctvc2SBAzMH3-iRvmO4V1-qD8z8k_ZoJ4ShoCazkQAvD_BwE&gclsrc=aw.ds)
+data warehouse to store data that works across clouds with [Google BigQuery](https://cloud.google.com/bigquery/?utm_source=google&utm_medium=cpc&utm_campaign=japac-TH-all-en-dr-BKWS-all-super-trial-EXA-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_667077871611-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Data%20Analytics_BigQuery_big%20query_main-KWID_43700077853701054-aud-1596662388934%3Akwd-63326440124&userloc_1012728-network_g&utm_term=KW_google%20bigquery&gclid=CjwKCAjw3oqoBhAjEiwA_UaLtpFg721sXu5OaTYClS3Ctvc2SBAzMH3-iRvmO4V1-qD8z8k_ZoJ4ShoCazkQAvD_BwE&gclsrc=aw.ds)<br>
 - [Create Dataset](02-data-pipeline.md#CreateCreate-Dataset)
 
 ## Create Cloud Composer
