@@ -9,4 +9,4 @@
 - Number of schedulers : 1
 <br>
 
-![2](/images/datapipeline/0-1.png)
+![2](/images/0-1.png)
