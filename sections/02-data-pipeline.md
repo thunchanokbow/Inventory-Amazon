@@ -90,6 +90,20 @@ Enter the following information:
 
 ![4](/images/4.png)
 
+## Create Dataset
+1.Go to the BigQuery [page](https://console.cloud.google.com/bigquery)<br>
+2.In the Explorer panel, select the project where you want to create the dataset.<br>
+3.Expand the more_vert Actions option and click Create dataset.<br>
+4.On the Create dataset page:<br>
+- Select : _best-seller-amazon_
+- Fill : _dataproc_spark_
+- Location type : Region
+- Region : asia-east2(Hong Kong)<br>
+
+5.Click Create.
+
+![9](/images/9.png)
+
 ## Automate Tasks with Airflow
 
 ![5](/images/5.png)
@@ -105,6 +119,7 @@ Keep it in mind when you create a Cloud Composer environment, Google Cloud Stora
 ![6](/images/6.png)
 
 ## Create Cloud Dataproc
+![7](/images/7.png)
 In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a Dataproc cluster, submit a PySpark job, and delete a Dataproc cluster using Python.
 
 
@@ -116,16 +131,6 @@ In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a D
 ## Delete a Dataproc cluster
 ![12](/images/12.png)
 
-## Create Dataset
-1.Go to the BigQuery [page](https://console.cloud.google.com/bigquery)<br>
-2.In the Explorer panel, select the project where you want to create the dataset.<br>
-3.Expand the more_vert Actions option and click Create dataset.<br>
-4.On the Create dataset page:<br>
-- Select : _best-seller-amazon_
-- Fill : _dataproc_spark_
-- Location type : Region
-- Region : asia-east2(Hong Kong)<br>
-5.Click Create.
+![8](/images/8.png)
 
-![9](/images/9.png)
 
