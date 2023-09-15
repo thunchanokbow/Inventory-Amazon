@@ -110,6 +110,7 @@ Enter the following information:
 
 ![9](/images/9.png)
 
+get more connection information https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
 ## Automate Tasks with Airflow
 
 ![5](/images/5.png)
