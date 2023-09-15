@@ -1,11 +1,12 @@
 PostgreSQL Database
 ============
 [Azure Database for PostgreSQL - Flexible Server.](https://azure.microsoft.com/en-gb/free/) If you don’t have one, create a free account before you begin.
-- [Create a PostgreSQL database](01-postgres.md#Create-a-PostgreSQL-database)
+- [Create Server](01-postgres.md#Create-Server)
+- [Create Database](01-postgres.md#Create-Database)
 - [Connect Database to Google cloud platform](01-postgres.md#Connect-Database-to-Google-cloud-platform)
 
 
-## Create a PostgreSQL database
+## Create Server
 1.To create a PostgreSQL Flexible Server database, search for and select _Azure Database for PostgreSQL servers_.<br>
 2.Select Create.<br>
 3.On the Select Azure Database for PostgreSQL deployment option page, select **Flexible Server**.<br>
@@ -22,8 +23,21 @@ PostgreSQL Database
 ![5](/images/azure-5.png)
 ![A](/images/azure-0.png)
 
+## Create Database
+Once the server is created, you can create a database on it by following these steps.<br>
+1.Go to the server overview page.<br>
+2.Click the Databases tab.<br>
+3.Click the + Add database button.<br>
+4.Enter the following information:
+- Database name: The name of the database.
+- Owner: The user who will own the database.
+- Collation: The collation for the database.
+5. Click the **Create** button.
+![7](/images/azure-7.png)
+
 ## Connect Database to Google cloud platform
 If you created your flexible server with Public access (allowed IP addresses), you can add your local IP address to the list of firewall rules on your server, **The Google IP address** is in the **Compute Engine** that was created when you created the environment in **Google Cloud Composer**.
+<br>
 <br>
 ![C](/images/compute-engine.png)
 <br>
