@@ -1,5 +1,6 @@
 Amazon's Inventory of Clothes
 ============
+Let's find out from the dataset of Amazon's e-commerce company whether there are enough products to meet demand or excessive inventory that leads to loss of sales opportunities and revenue.<br>
 
 ## Contents 
 
