@@ -57,6 +57,11 @@ Spectify libraries from the Python Package. _pandas_ <br>
 
 ## Connected PostgreSQL to Airflow
 To create an Airflow connection to the PostgreSQL instance, follow these steps.<br>
+### Get database connection information
+You can get this information from the Azure portal.<br>
+1.In the Azure portal, search for and select your flexible server name.<br>
+2.On the server's **Overview page**, copy the fully qualified Server name and the **Admin username**. <br>
+The fully qualified **Server name** is always of the form _<my-server-name>.postgres.database.azure.com._
 
 ![1](/images/1.png)
 ### Create an Airflow connection
