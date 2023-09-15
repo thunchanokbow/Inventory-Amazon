@@ -114,8 +114,8 @@ get more connection information https://learn.microsoft.com/en-us/azure/postgres
 
 ## Automate Tasks with Airflow
 ### Prerequisities
-- Spark jobs file.<br>
-- Dag file.<br>
+- preparing Spark jobs file.<br>
+- preparing  Dag file.<br>
 <br>
 
 
