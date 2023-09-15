@@ -111,14 +111,20 @@ Enter the following information:
 ![9](/images/9.png)
 
 get more connection information https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
+
 ## Automate Tasks with Airflow
+### Prerequisities
+- Spark jobs file.<br>
+- Dag file.<br>
+<br>
+
 
 ![5](/images/5.png)
 
 
 ### Upload files to GCS<br> 
-- Select the dataproc-spark-demo > script bucket. then upload spark script file.<br>
-- Click the "Open dags folder" button in the top right corner of the website.<br>
+- Select the **dataproc-spark-demo** > script bucket. then **upload** spark script file.<br>
+- Click the **"Open dags folder"** button in the top right corner of the website.<br>
   
 Keep it in mind when you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.<br>
 - Uplod DAG flie to the composer bucket.
