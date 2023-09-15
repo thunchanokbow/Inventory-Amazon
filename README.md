@@ -15,6 +15,6 @@ Amazon's Inventory of Clothes
   
 [Data Visualization](sections/03-data-visualization.md) building dashboard with Power BI Desktop  
 <br>
-
-![12](/images/cover-0.PNG)
 ![11](/images/power-bi11.png)
+![12](/images/cover-0.PNG)
+
