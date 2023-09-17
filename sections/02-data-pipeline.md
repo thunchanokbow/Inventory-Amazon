@@ -31,11 +31,11 @@ data warehouse to store data that works across clouds with [Google BigQuery](htt
 
 ## Create Cloud Composer
 create Google Cloud Composer environments to manage Apache Airflow workflows.<br>
-1.Select your project<br>
-2.Click Create environment: " Composer 1 "<br>
-3.In the Create environment dialog, enter a name for your environment and select a location.<br>
-4.Configure environment scale and performance parameters.<br>
-5.Specify Airflow configuration overrides and environment variables.<br>
+1. Select your project<br>
+2. Click Create environment: " Composer 1 "<br>
+3. In the Create environment dialog, enter a name for your environment and select a location.<br>
+4. Configure environment scale and performance parameters.<br>
+5. Specify Airflow configuration overrides and environment variables.<br>
 
 ![0](/images/0.png)
 
@@ -59,15 +59,15 @@ Spectify libraries from the Python Package. _pandas_ <br>
 To create an Airflow connection to the PostgreSQL instance, follow these steps.<br>
 ### Get database connection information
 You can get this information from the Azure portal.<br>
-1.In the Azure portal, search for and select your flexible server name.<br>
-2.On the server's **Overview page**, copy the fully qualified Server name and the **Admin username**. <br>
+1. In the Azure portal, search for and select your flexible server name.<br>
+2. On the server's **Overview page**, copy the fully qualified Server name and the **Admin username**. <br>
 The fully qualified **Server name** is always of the form _<my-server-name>.postgres.database.azure.com._
 
 ![1](/images/1.png)
 ### Create an Airflow connection
-1.Go to the Airflow web UI.<br>
-2.Click _Admin_ > _Connections._<br>
-3.Select the PostgreSQL connection type.<br>
+1. Go to the Airflow web UI.<br>
+2. Click _Admin_ > _Connections._<br>
+3. Select the PostgreSQL connection type.<br>
 _Connection name:_ A name for the connection.<br>
 _Host:_ The hostname or IP address of the Cloud SQL PostgreSQL instance.<br>
 _Login:_ The postgres user name.<br>
@@ -86,27 +86,27 @@ Enter the following information:
 
 
 ## Create Bucket
-1.Click the Storage tab.<br>
-2.Click Buckets.<br>
-3.Click Create bucket.<br>
-4.Enter a name for your bucket.<br>
-5.Select a location for your bucket.<br>
-6.Select a storage class for your bucket.<br>
-7.Click Create.<br>
+1. Click the Storage tab.<br>
+2. Click Buckets.<br>
+3. Click Create bucket.<br>
+4. Enter a name for your bucket.<br>
+5. Select a location for your bucket.<br>
+6. Select a storage class for your bucket.<br>
+7. Click Create.<br>
 
 ![4](/images/4.png)
 
 ## Create Dataset
-1.Go to the BigQuery [page](https://console.cloud.google.com/bigquery)<br>
-2.In the Explorer panel, select the project where you want to create the dataset.<br>
-3.Expand the more_vert Actions option and click Create dataset.<br>
-4.On the Create dataset page:<br>
+1. Go to the BigQuery [page](https://console.cloud.google.com/bigquery)<br>
+2. In the Explorer panel, select the project where you want to create the dataset.<br>
+3. Expand the more_vert Actions option and click Create dataset.<br>
+4. On the Create dataset page:<br>
 - Select : _best-seller-amazon_
 - Fill : _dataproc_spark_
 - Location type : Region
 - Region : asia-east2(Hong Kong)<br>
 
-5.Click Create.
+5. Click Create.
 
 ![9](/images/9.png)
 
@@ -114,6 +114,10 @@ get more connection information https://learn.microsoft.com/en-us/azure/postgres
 
 ## Automate Tasks with Airflow
 ### Prerequisities
+- Create the dataset in Google BigQuery.<br>
+- Create the storage in GCS to store the data from PostgreSQL database, input and output from Spark jobs.<br>
+- Create Cloud Composer environment managed Apache Airflow in Google Cloud Platfrom.<br>
+- Provide the Airflow UI Admin connection database credentials, PyPI packages Pandas in GCC.<br>
 - preparing Spark jobs [file](final-spark.py).<br>
 - preparing  Dag [file](dags_spark_loop.py).<br>
 <br>
@@ -127,7 +131,7 @@ get more connection information https://learn.microsoft.com/en-us/azure/postgres
 - Click the **"Open dags folder"** button in the top right corner of the website.<br>
   
 Keep it in mind when you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.<br>
-- Uplod DAG flie to the composer bucket.
+- **Uplod** DAG flie to the composer bucket.
 
 ![6](/images/6.png)
 
@@ -143,6 +147,13 @@ In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a D
 
 ## Delete a Dataproc cluster
 ![12](/images/12.png)
+
+### The specific steps in the data pipeline in the image
+1. Create a Google Cloud Dataproc cluster to run Spark jobs.<br>
+2. Extracting data from a PostgreSQL database.<br>
+3. Execute Pandas and Spark jobs on a Dataproc cluster. <br>
+4. Storing the results of a Spark job in BigQuery. <br>
+5. Delete the data in the Google Cloud Storage bucket.<br>
 
 ![8](/images/8.png)
 
