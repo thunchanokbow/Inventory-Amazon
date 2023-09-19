@@ -144,6 +144,10 @@ In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a D
 
 ## Submit PySpark jobs
 ![11](/images/11.png)
+<br>
+get more Airflow operator information <br>
+https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/operators.html?fbclid=IwAR3Rt5BFFecrfwVjwAfMqIgF1I6WUPaJYRVXDBbQfFPk4OkPI_hJ8dVAzGY
+
 
 ## Delete a Dataproc cluster
 ![12](/images/12.png)
