@@ -164,8 +164,8 @@ https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/ope
 
 Get more information: <br>
 Extract data from PostgreSQL<br>
-https://towardsdatascience.com/postgres-bigquery-airflow-e857e3c6aa7a?mibextid=Zxz2cZ
+https://towardsdatascience.com/postgres-bigquery-airflow-e857e3c6aa7a?mibextid=Zxz2cZ <br>
 PySpark cheat sheet<br>
-https://sparkbyexamples.com/pyspark-tutorial/#dataframe-creation
+https://sparkbyexamples.com/pyspark-tutorial/#dataframe-creation <br>
 Automate dataproc tutorial<br>
 https://youtu.be/H2fWFDHB8Oc?si=UK5_lUQh5o7HvGTB
