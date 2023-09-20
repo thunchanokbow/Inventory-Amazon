@@ -7,31 +7,32 @@ PostgreSQL Database
 
 
 ## Create Server
-1.To create a PostgreSQL Flexible Server database, search for and select _Azure Database for PostgreSQL servers_.<br>
-2.Select Create.<br>
-3.On the Select Azure Database for PostgreSQL deployment option page, select **Flexible Server**.<br>
-4.Enter the basic settings for a new _Flexible Server_.<br>
-5.For Compute + storage setting, keep the default values populated upon selecting **Development** workload type.<br>
-6.Select Save to continue with the configuration.<br>
+1. To create a PostgreSQL Flexible Server database, search for and select _Azure Database for PostgreSQL servers_.<br>
+2. Select Create.<br>
+3. On the Select Azure Database for PostgreSQL deployment option page, select **Flexible Server**.<br>
+4. Enter the basic settings for a new _Flexible Server_.<br>
+5. For Compute + storage setting, keep the default values populated upon selecting **Development** workload type.<br>
+6. Select Save to continue with the configuration.<br>
 ![3](/images/azure-3.png)
 ![4](/images/azure-4.png)
 
-7.Select Networking tab to configure how to reach your server. <br>
-8.On the Networking tab, for Connectivity method select **Public access (allowed IP addresses)**. <br>
-9.For configuring **Firewall rules**, select Add current client _IP address_.<br>
+7. Select Networking tab to configure how to reach your server. <br>
+8. On the Networking tab, for Connectivity method select **Public access (allowed IP addresses)**. <br>
+9. For configuring **Firewall rules**, select Add current client _IP address_.<br>
 
 ![5](/images/azure-5.png)
 ![A](/images/azure-0.png)
 
 ## Create Database
 Once the server is created, you can create a database on it by following these steps.<br>
-1.Go to the server overview page.<br>
-2.Click the Databases tab.<br>
-3.Click the + Add database button.<br>
-4.Enter the following information:
+1. Go to the server overview page.<br>
+2. Click the Databases tab.<br>
+3. Click the + Add database button.<br>
+4. Enter the following information:
 - Database name: The name of the database.
 - Owner: The user who will own the database.
 - Collation: The collation for the database.
+ 
 5. Click the **Create** button.
 ![7](/images/azure-7.png)
 
