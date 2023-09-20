@@ -19,3 +19,5 @@ Let's find out from the dataset of Amazon's e-commerce company whether there are
 ![11](/images/power-bi11.png)
 ![12](/images/cover-0.PNG)
 
+Get more dataset information:
+https://www.kaggle.com/thedevastator/datasets
