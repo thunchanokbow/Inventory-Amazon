@@ -110,7 +110,8 @@ Enter the following information:
 
 ![9](/images/9.png)
 
-get more connection information https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
+Get more connection information:<br> 
+https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
 
 ## Automate Tasks with Airflow
 ### Prerequisities
@@ -127,11 +128,11 @@ get more connection information https://learn.microsoft.com/en-us/azure/postgres
 
 
 ### Upload files to GCS<br> 
-- Select the **dataproc-spark-demo** > script bucket. then **upload** spark script file.<br>
+- Select the **dataproc-spark-demo** > script bucket. then **upload spark script file**.<br>
 - Click the **"Open dags folder"** button in the top right corner of the website.<br>
   
 Keep it in mind when you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.<br>
-- **Uplod** DAG flie to the composer bucket.
+- **Uplod DAG flie** to the composer bucket.
 
 ![6](/images/6.png)
 
@@ -144,8 +145,8 @@ In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a D
 
 ## Submit PySpark jobs
 ![11](/images/11.png)
-<br>
-get more Airflow operator information <br>
+<br> 
+Get more Airflow operator information: <br>
 https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/operators.html?fbclid=IwAR3Rt5BFFecrfwVjwAfMqIgF1I6WUPaJYRVXDBbQfFPk4OkPI_hJ8dVAzGY
 
 
@@ -161,4 +162,10 @@ https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/ope
 
 ![8](/images/8.png)
 
-
+Get more information: <br>
+Extract data from PostgreSQL<br>
+https://towardsdatascience.com/postgres-bigquery-airflow-e857e3c6aa7a?mibextid=Zxz2cZ
+PySpark cheat sheet<br>
+https://sparkbyexamples.com/pyspark-tutorial/#dataframe-creation
+Automate dataproc tutorial<br>
+https://youtu.be/H2fWFDHB8Oc?si=UK5_lUQh5o7HvGTB
