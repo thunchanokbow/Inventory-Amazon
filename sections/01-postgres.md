@@ -55,8 +55,8 @@ The easiest and most convenient tool to add a dataset is **pgAdmin 4**. <br>
 ![8](/images/Azure-pgAdmin.png)
 
 ### Creating and importing 
-How to creating a Table [Click](section/create-table.md) <br>
-How to importing a CSV file into a table [Click](section/import-data.md)
+How to creating a Table [Click](https://github.com/thunchanokbow/Postgresql-database/blob/main/section/create-table.md) <br>
+How to importing a CSV file into a table [Click](https://github.com/thunchanokbow/Postgresql-database/blob/main/section/import-data.md)
 
 ## Connect Database to Google cloud platform
 If you created your flexible server with Public access (allowed IP addresses), you can add your local IP address to the list of firewall rules on your server, **The Google IP address** is in the **Compute Engine** that was created when you created the environment in **Google Cloud Composer**.
