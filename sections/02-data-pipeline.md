@@ -129,7 +129,7 @@ https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-pytho
 
 ### Upload files to GCS<br> 
 - Select the **dataproc-spark-demo** > script bucket. then **upload Spark jobs file**.<br>
-- Click the **"Open dags folder"** button in the top right corner of the website.<br>
+- Click the **OPEN DAGS FOLDER** button in the top right corner of the website.<br>
   
 Keep it in mind when you create a Cloud Composer environment, Google Cloud Storage will automatically create a bucket that is connected to the environment.<br>
 - **Uplod DAG flie** to the composer bucket.
@@ -137,9 +137,10 @@ Keep it in mind when you create a Cloud Composer environment, Google Cloud Stora
 ![6](/images/6.png)
 
 ## Create Cloud Dataproc
-![7](/images/7.png)
+
 In a [dag file](Inventory2Q2022.ipynb), airflow operators are used to create a Dataproc cluster, submit a PySpark job, and delete a Dataproc cluster using Python.
 
+![7](/images/7.png)
 
 ![10](/images/10.png)
 
