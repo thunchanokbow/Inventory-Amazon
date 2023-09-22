@@ -8,6 +8,7 @@ create dashboards and reports with [Power BI Desktop](https://cloud.google.com/c
 - [Creating Stacked Bar Chart](03-data-visualization.md#Creating-Stacked-Bar-Chart)
 - [Creating Card](03-data-visualization.md#Creating-Card)
 - [Creating Table](03-data-visualization.md#Creating-Table)
+- [Creating Clustered Column Chart](03-data-visualization.md#Creating-Clustered-Column-Chart)
 
 ![0](/images/power-bi0.png)
 
