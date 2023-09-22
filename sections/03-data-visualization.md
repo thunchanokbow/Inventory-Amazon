@@ -3,7 +3,7 @@ Data Visualization
 create dashboards and reports with [Power BI Desktop](https://cloud.google.com/composer?hl=en)
 <br>
 <br>
-![10](/images/power-bi10.png)
+![0](/images/power-bi0.png)
 ![1](/images/power-bi1.png)
 ![2](/images/power-bi2.png)
 ![3](/images/power-bi3.png)
