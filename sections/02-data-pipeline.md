@@ -10,7 +10,7 @@ managed workflow orchestration service built on Apache Airflow with [Cloud Compo
 
 Google Cloud Storage
 ============
-[Cloud Storage](https://cloud.google.com/storage) managed service for storing semistructured, and unstructured data. We will create a bucket to store Spark scripts that have data collection tasks for working with Cloud Dataproc.
+[Cloud Storage](https://cloud.google.com/storage) managed service for storing semistructured, and unstructured data. We will create a bucket to store Spark jobs file that have data collection tasks for working with Cloud Dataproc.
 <br>
 
 - [Create Bucket](02-data-pipeline.md#Create-Bucket)
@@ -84,6 +84,8 @@ Enter the following information:
 - Password: The password for the postgres user.
 - Port: 5432
 
+Get more connection information:<br> 
+https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
 
 ## Create Bucket
 1. Click the Storage tab.<br>
@@ -110,8 +112,6 @@ Enter the following information:
 
 ![9](/images/9.png)
 
-Get more connection information:<br> 
-https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python
 
 ## Automate Tasks with Airflow
 ### Prerequisities
@@ -160,6 +160,7 @@ https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/ope
 3. Execute Pandas and Spark jobs on a Dataproc cluster. <br>
 4. Storing the results of a Spark job in BigQuery. <br>
 5. Delete the data in the Google Cloud Storage bucket.<br>
+6. Delete a Google Cloud Dataproc cluster.<br>
 
 ![8](/images/8.png)
 
