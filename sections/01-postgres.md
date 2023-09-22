@@ -3,6 +3,7 @@ PostgreSQL Database
 [Azure Database for PostgreSQL - Flexible Server.](https://azure.microsoft.com/en-gb/free/) If you don’t have one, create a free account before you begin.
 - [Create Server](01-postgres.md#Create-Server)
 - [Create Database](01-postgres.md#Create-Database)
+- [Import dataset](01-postgres.md#Import-dataset)
 - [Connect Database to Google cloud platform](01-postgres.md#Connect-Database-to-Google-cloud-platform)
 
 
@@ -35,6 +36,23 @@ Once the server is created, you can create a database on it by following these s
  
 5. Click the **Create** button.
 ![7](/images/azure-7.png)
+
+## Import dataset
+The easiest and most convenient tool to add a dataset is **pgAdmin 4**. <br>
+### Connecting to the Server
+1. Open pgAdmin. <br>
+2. Right-click on the Servers node in the tree control and select **Create** > **Server**.<br>
+3. In the **Create Server** dialog, enter the following information:<br>
+- **Name**: Enter a name for the server connection.<br>
+- **Type**: Select PostgreSQL from the drop-down menu.<br>
+- **Host**: Enter the hostname or IP address of the PostgreSQL server.<br>
+- **Port**: Enter the port number of the PostgreSQL server.<br>
+- **Maintenance database**: Enter the name of the maintenance database. This is optional.<br>
+- **Username**: Enter the username for the PostgreSQL user that you want to connect with.<br>
+- **Password**: Enter the password for the PostgreSQL user that you want to connect with.<br>
+
+4. Click **Save**.
+![8](/images/Azure-pgAdmin.png)
 
 ## Connect Database to Google cloud platform
 If you created your flexible server with Public access (allowed IP addresses), you can add your local IP address to the list of firewall rules on your server, **The Google IP address** is in the **Compute Engine** that was created when you created the environment in **Google Cloud Composer**.
