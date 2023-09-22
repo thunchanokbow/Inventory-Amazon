@@ -16,7 +16,7 @@ Let's find out from the dataset of Amazon's e-commerce company whether there are
   
 [Data Visualization](sections/03-data-visualization.md) building dashboard with Power BI Desktop  
 <br>
-![11](/images/power-bi11.png)
+![11](/images/power-bi0.png)
 ![12](/images/cover-0.PNG)
 
 Get more dataset information:
